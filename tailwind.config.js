@@ -7,12 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        gray: '#808080',
+        black: '#000000',
+        white: '#ffffff',
+        purple: '#800080',
+        purplelight: 'rgba(142,0,142,0.9)',
+        midnight: '#121063',
+        metal: '#565584',
+        tahiti: '#3ab7bf',
+        silver: '#ecebff',
+        'bubble-gum': '#ff77e9',
+        bermuda: '#78dcca'
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require('prettier-plugin-tailwindcss')],
+};
