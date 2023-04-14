@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 const TopNav = () => {
 	return (
 		<div className="hidden w-full flex-col items-center md:flex">
@@ -8,7 +9,20 @@ const TopNav = () => {
 					<span className="h-4 text-sm font-semibold leading-5 tracking-wide text-black">
 						Hours: 9am - 5pm
 					</span>
-					<div className="flex flex-row items-center gap-2 p-1">
+					<motion.a
+						initial={{ x: 100, opacity: 0 }}
+						animate={{ x: 0, opacity: 1 }}
+						transition={{ duration: 0.5, ease: "easeInOut" }}
+						className="flex flex-row items-center gap-2 p-1"
+						whileHover={{
+							scale: 0.97,
+							transition: {
+								duration: 0.1,
+								ease: "easeInOut",
+							},
+						}}
+						href="tel:+17864447717"
+					>
 						<Image
 							className="h-6 w-6"
 							src="/phone.png"
@@ -16,13 +30,10 @@ const TopNav = () => {
 							width={24}
 							height={24}
 						/>
-						<a
-							href="tel:+17864447717"
-							className="h-4 text-sm font-semibold leading-5 tracking-wide text-black"
-						>
+						<span className="h-4 text-sm font-semibold leading-5 tracking-wide text-black">
 							Call 1+(786)-444-7717
-						</a>
-					</div>
+						</span>
+					</motion.a>
 				</div>
 			</div>
 		</div>
