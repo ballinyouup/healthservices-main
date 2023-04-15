@@ -19,7 +19,7 @@ module.exports = {
         metal: '#565584',
         tahiti: '#3ab7bf',
         silver: '#ecebff',
-        'bubble-gum': '#ff77e9',
+        bubblegum: '#ff77e9',
         bermuda: '#78dcca'
       },
     },

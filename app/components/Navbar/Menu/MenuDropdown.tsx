@@ -3,9 +3,9 @@ import { Menu } from "@headlessui/react";
 import MenuButton from "./MenuButton";
 import MenuItems from "./MenuItems";
 
-const Dropdown = () => {
+const MenuDropdown = () => {
 	return (
-		<div className="hidden font-semibold md:flex">
+		<div className="hidden font-semibold sm:flex">
 			<Menu as="div" className="relative inline-block text-left">
 				<MenuButton />
 				<MenuItems />
@@ -14,4 +14,4 @@ const Dropdown = () => {
 	);
 };
 
-export default Dropdown;
+export default MenuDropdown;

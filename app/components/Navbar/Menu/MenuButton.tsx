@@ -14,12 +14,16 @@ const MenuButton = () => {
 					className="-mr-1 ml-2 h-5 w-5 text-white"
 					aria-hidden="true"
 					strokeWidth={2}
+					width={20}
+					height={20}
 				/>
 			) : (
 				<ChevronUpIcon
 					className="-mr-1 ml-2 h-5 w-5 text-white"
 					aria-hidden="true"
 					strokeWidth={2}
+					width={20}
+					height={20}
 				/>
 			)}
 		</Menu.Button>
