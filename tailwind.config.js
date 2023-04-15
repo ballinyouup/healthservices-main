@@ -22,6 +22,11 @@ module.exports = {
         bubblegum: '#ff77e9',
         bermuda: '#78dcca'
       },
+      maxWidth: {
+        "8xl": "88rem",
+        "8.5xl": "104rem",
+        "9xl": "112rem"
+      }
     },
   },
   plugins: [],

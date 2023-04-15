@@ -41,21 +41,32 @@ const MenuItems = () => {
 			<Menu.Items className="absolute right-0 mt-2 flex w-36 flex-col gap-1 rounded-md bg-white p-3 ring-1 ring-black ring-opacity-20 focus:outline-none">
 				{menuItems.map((item, index) => {
 					return (
-						<>
+						<div key={index}>
 							<motion.div
 								initial={{ y: 20, opacity: 0 }}
 								animate={{ y: 0, opacity: 1 }}
 								transition={{
 									delay: 0.25 * index,
+									duration: 0.25,
 								}}
-								key={index}
+								
 							>
 								{item}
 							</motion.div>
-							{index !== menuItems.length - 1 && (
-								<hr className="border-black border-opacity-25" />
-							)}
-						</>
+							<motion.hr
+								initial={{ opacity: 0, width: "0%" }}
+								animate={{ opacity: 1, width: "100%" }}
+								transition={{
+									delay: 0.25 * index,
+									duration: 0.75,
+								}}
+								className={`${
+									index === menuItems.length - 1
+										? "border-transparent"
+										: "border-black"
+								}  border-opacity-25`}
+							/>
+						</div>
 					);
 				})}
 			</Menu.Items>

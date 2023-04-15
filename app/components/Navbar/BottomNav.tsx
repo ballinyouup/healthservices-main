@@ -8,9 +8,9 @@ const BottomNav = () => {
 		<div className="flex h-16 w-full flex-row items-center justify-between bg-purple bg-opacity-80  px-4 py-10">
 			<Logo />
 			<div className="hidden w-fit gap-2 sm:flex">
-				<Button>Home</Button>
+				<Button clear>Home</Button>
 				<MenuDropdown />
-				<Button>Contact Us</Button>
+				<Button clear>Contact Us</Button>
 			</div>
 			<MobileMenu />
 		</div>
