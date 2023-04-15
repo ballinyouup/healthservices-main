@@ -49,7 +49,7 @@ const MenuItems = () => {
 									delay: 0.25 * index,
 									duration: 0.25,
 								}}
-								
+								className="p-1"
 							>
 								{item}
 							</motion.div>
