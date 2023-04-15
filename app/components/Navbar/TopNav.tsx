@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const TopNav = () => {
 	return (
 		<div className="hidden w-full flex-col items-center md:flex">
-			<div className="isolate flex h-10 w-full flex-row items-center justify-end bg-neutral-100">
+			<div className="flex h-7 w-full flex-row items-center justify-end bg-neutral-100">
 				<div className="flex h-7 w-full flex-row items-center justify-end gap-4 p-0 pr-3">
 					<span className="h-4 text-sm font-semibold leading-5 tracking-wide text-black">
 						Hours: 9am - 5pm
