@@ -3,6 +3,7 @@ import Hero from "./components/Home/Hero/Hero";
 import HomeCardSection from "./components/Home/CardSection/HomeCardSection";
 import TextSection from "./components/Home/TextSection/TextSection";
 import { Metadata } from "next";
+import ContactSection from "./components/Home/ContactSection/ContactSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,8 @@ export default function Home() {
 				<Hero />
 				<TextSection />
 				<HomeCardSection />
+				<ContactSection />
+				<div className="p-20">test</div>
 			</div>
 		</main>
 	);

@@ -21,7 +21,7 @@ const TextSection = () => {
 					<span className="w-40 text-start text-4xl font-bold uppercase text-purple sm:text-end">
 						Why Choose Us
 					</span>
-					<span className="w-full border-[1.5px] border-black sm:h-28 sm:w-fit" />
+					<span className="w-full border-[1.5px] border-purple sm:h-28 sm:w-fit" />
 					<span>
 						Our plans not only offer comprehensive coverage for routine checkups
 						and major medical procedures but our agents also provide
