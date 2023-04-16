@@ -16,7 +16,6 @@ module.exports = {
         purple: 'rgb(96,0,96)',
         purpleDark: "rgb(64,0,64)",
         purplelight: 'rgb(112,0,112)',
-        purpleNav: "rgb(128,51,128)",
         midnight: '#121063',
         metal: '#565584',
         tahiti: '#3ab7bf',

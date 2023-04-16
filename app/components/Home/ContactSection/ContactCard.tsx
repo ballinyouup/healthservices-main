@@ -4,8 +4,8 @@ interface IContactCard {
 
 const ContactCard: React.FC<IContactCard> = ({ text }) => {
 	return (
-		<div className="flex h-full w-120 flex-col items-start justify-start gap-8 rounded-xl bg-white p-12">
-			<div className="flex w-full flex-col gap-2">
+		<div className="flex h-full w-120 flex-col items-start justify-start gap-6 rounded-xl bg-white p-12">
+			<div className="flex w-full flex-col gap-4">
 				<span className="text-4xl font-bold uppercase text-black">{text}</span>
 				<span>
 					Fill out this form and our team will get back to you within 24 hours
