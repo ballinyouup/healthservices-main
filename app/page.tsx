@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main
-			className={`flex w-full items-center justify-center ${inter.className}`}
+			className={`flex h-full w-full items-center justify-center ${inter.className}`}
 		>
-			<div className="flex w-full flex-col md:max-w-9xl">
+			<div className="flex h-full w-full flex-col md:max-w-9xl">
 				<Hero />
 				<TextSection />
 				<HomeCardSection />
