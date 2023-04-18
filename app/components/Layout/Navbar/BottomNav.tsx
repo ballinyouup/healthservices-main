@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import Button from "../../Button/Button";
 import MenuDropdown from "./Menu/MenuDropdown";
 import Logo from "./Logo";
 import MobileMenu from "./MobileMenu/MobileMenu";

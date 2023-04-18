@@ -4,6 +4,7 @@ import HomeCardSection from "./components/Home/CardSection/HomeCardSection";
 import TextSection from "./components/Home/TextSection/TextSection";
 import { Metadata } from "next";
 import ContactSection from "./components/Home/ContactSection/ContactSection";
+import Divider from "./components/Divider/Divider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +23,8 @@ export default function Home() {
 				<Hero />
 				<TextSection />
 				<HomeCardSection />
-				<div className="hidden h-20 w-full items-center justify-center lg:flex">
-					<hr className="w-full max-w-5xl border border-purpleDark" />
-				</div>
+				<Divider />
 				<ContactSection />
-				<div className="p-20">test</div>
 			</div>
 		</main>
 	);
