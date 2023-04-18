@@ -2,8 +2,8 @@ interface IContactCard {}
 
 const ContactCard: React.FC<IContactCard> = () => {
 	return (
-		<div className="flex h-full w-120 flex-col items-start justify-start gap-6 rounded-xl border border-black border-opacity-25 bg-slate-100 p-12">
-			<div className="flex w-full flex-col gap-4">
+		<div className="flex h-full w-fit flex-col items-start justify-start gap-6 rounded-xl border border-black border-opacity-25 bg-slate-100 p-6 sm:w-120 sm:p-12">
+			<div className="flex w-full max-w-sm flex-col gap-4">
 				<span className="text-4xl font-bold uppercase text-purple">
 					Contact Us
 				</span>
@@ -11,8 +11,8 @@ const ContactCard: React.FC<IContactCard> = () => {
 					Fill out this form and our team will get back to you within 24 hours
 				</span>
 			</div>
-			<div className="flex w-full flex-col gap-1">
-				<div className="flex gap-4">
+			<div className="flex w-full max-w-sm flex-col gap-1">
+				<div className="flex gap-2 sm:gap-4">
 					<div className="flex flex-col">
 						<label>First Name:</label>
 						<input
