@@ -22,6 +22,9 @@ export default function Home() {
 				<Hero />
 				<TextSection />
 				<HomeCardSection />
+				<div className="hidden h-20 w-full items-center justify-center lg:flex">
+					<hr className="w-full max-w-5xl border border-purpleDark" />
+				</div>
 				<ContactSection />
 				<div className="p-20">test</div>
 			</div>
