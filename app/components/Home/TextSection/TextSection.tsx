@@ -16,7 +16,7 @@ const TextSection = () => {
 						duration: 0.75,
 						ease: "easeIn",
 					}}
-					className="flex w-full max-w-xl flex-col items-start justify-center gap-4 p-8 sm:flex-row sm:items-center sm:p-2"
+					className="flex w-full max-w-xl flex-col items-start justify-center gap-4 p-5 sm:flex-row sm:items-center sm:p-2"
 				>
 					<span className="w-40 text-start text-4xl font-bold uppercase text-purple sm:text-end">
 						Why Choose Us

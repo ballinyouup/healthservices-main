@@ -16,7 +16,7 @@ const HeroSubtitle = () => {
 				delay: 0.5,
 				duration: 0.5,
 			}}
-			className="font-poppins max-w-md whitespace-normal text-xl font-normal leading-7 text-white"
+			className="font-poppins w-full max-w-xl whitespace-normal text-xl font-normal text-white"
 		>
 			Everyone deserves access to quality insurance coverage that fits their
 			needs and budget

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const AboutSection = () => {
 	return (
-		<section className="flex w-full flex-col items-center justify-center gap-8 px-8 pt-8 lg:p-8">
-			<span className="rounded-xl bg-purple p-4 text-4xl font-bold uppercase text-white">
+		<section className="flex w-full flex-col items-center justify-center gap-8 px-5 pt-8 lg:p-8">
+			<span className="w-full max-w-md rounded-xl bg-purple p-4 text-center text-4xl font-bold uppercase text-white">
 				Meet your Agent
 			</span>
 			<div className="flex w-full max-w-5xl flex-col items-center gap-12 lg:flex-row">
@@ -13,7 +13,7 @@ const AboutSection = () => {
 					width={200}
 					height={200}
 				/>
-				<span className="max-w-2xl text-lg lg:w-192 lg:max-w-none">
+				<span className="max-w-md text-xl lg:w-192 lg:max-w-none">
 					Meet Delia Huici, a licensed insurance agent with expertise in Life
 					Insurance, Medicare/Medicaid, Obamacare, and Funeral Assistance. With
 					over 20 years of experience in the healthcare industry, Delia is

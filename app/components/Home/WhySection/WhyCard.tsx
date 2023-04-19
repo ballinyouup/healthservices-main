@@ -19,6 +19,7 @@ const WhyCard: React.FC<IWhyCard> = ({ alt, src, title, text }) => {
 					src={src}
 				/>
 			</div>
+
 			<span className="text-xl font-bold text-black">{title}</span>
 			<span className="text-base text-black">{text}</span>
 		</div>
