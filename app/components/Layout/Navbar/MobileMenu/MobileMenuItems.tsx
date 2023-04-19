@@ -6,7 +6,7 @@ import { Fragment } from "react";
 const MobileMenuItems = () => {
 	const menuItems: JSX.Element[] = [
 		<Menu.Item>
-			<Link href="/">Medicare</Link>
+			<Link href="/medicare">Medicare</Link>
 		</Menu.Item>,
 		<Menu.Item>
 			<Link href="/">Obamacare</Link>

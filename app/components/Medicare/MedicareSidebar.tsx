@@ -2,35 +2,35 @@ import { Tab } from "@headlessui/react";
 
 const MedicareSidebar = () => {
 	return (
-		<Tab.List className="md:col-span-4 lg:col-span-3">
-			<div className="flex flex-col items-start justify-start p-6 font-bold">
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Overview
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Eligibility & Enrollment
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Original Medicare
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Medicare Advantage
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Medicare Supplement
-				</Tab>
-				<Tab className="flex w-full flex-col items-center p-4 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start">
-					<span>Prescription Drug</span>
-					<span>Coverage</span>
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Costs & Coverage
-				</Tab>
-				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
-					Additional Benefits
-				</Tab>
-			</div>
-		</Tab.List>
+		<div className="flex flex-col items-start justify-start p-3 font-bold md:p-6">
+			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
+				Overview
+			</Tab>
+			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
+				<span>Eligibility &&nbsp;</span>
+				<span>Enrollment</span>
+			</Tab>
+			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
+				Original Medicare
+			</Tab>
+			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
+				Medicare Advantage
+			</Tab>
+			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
+				<span>Medicare &&nbsp;</span>
+				<span>Supplement</span>
+			</Tab>
+			<Tab className="flex w-full flex-col items-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
+				<span>Prescription Drug</span>
+				<span>Coverage</span>
+			</Tab>
+			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
+				Costs & Coverage
+			</Tab>
+			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
+				Additional Benefits
+			</Tab>
+		</div>
 	);
 };
 
