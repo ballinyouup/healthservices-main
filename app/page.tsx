@@ -24,6 +24,7 @@ export default function Home() {
 			<div className="flex h-full w-full flex-col md:max-w-9xl">
 				<Hero />
 				<TextSection />
+				<Divider />
 				<HomeCardSection />
 				<WhySection />
 				<AboutSection />
