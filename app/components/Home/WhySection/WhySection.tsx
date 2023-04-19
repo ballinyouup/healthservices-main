@@ -2,7 +2,7 @@ import WhyCard from "./WhyCard";
 
 const WhySection = () => {
 	return (
-		<section className="flex w-full flex-col items-center justify-center gap-10 bg-white p-12 lg:flex-row lg:items-start">
+		<section className="flex w-full flex-col items-center justify-center gap-10 bg-purple p-20 lg:flex-row lg:items-start">
 			<WhyCard
 				alt={"Heart Icon"}
 				src={

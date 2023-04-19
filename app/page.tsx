@@ -4,8 +4,9 @@ import HomeCardSection from "./components/Home/CardSection/HomeCardSection";
 import TextSection from "./components/Home/TextSection/TextSection";
 import { Metadata } from "next";
 import ContactSection from "./components/Home/ContactSection/ContactSection";
-import Divider from "./components/Divider/Divider";
 import WhySection from "./components/Home/WhySection/WhySection";
+import AboutSection from "./components/Home/AboutSection/AboutSection";
+import Divider from "./components/Divider/Divider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function Home() {
 				<TextSection />
 				<HomeCardSection />
 				<WhySection />
+				<AboutSection />
 				<Divider />
 				<ContactSection />
 			</div>
