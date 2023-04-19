@@ -12,6 +12,7 @@ const AboutSection = () => {
 					alt={"Delia Huici Picture"}
 					width={200}
 					height={200}
+					className="rounded-lg"
 				/>
 				<span className="max-w-md text-xl lg:w-192 lg:max-w-none">
 					Meet Delia Huici, a licensed insurance agent with expertise in Life

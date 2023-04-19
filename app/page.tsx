@@ -21,7 +21,7 @@ export default function Home() {
 		<main
 			className={`flex h-full w-full items-center justify-center ${inter.className}`}
 		>
-			<div className="flex h-full w-full flex-col md:max-w-9xl">
+			<div className="flex h-full w-full flex-col pb-6 sm:pb-0 md:max-w-9xl">
 				<Hero />
 				<TextSection />
 				<Divider />
