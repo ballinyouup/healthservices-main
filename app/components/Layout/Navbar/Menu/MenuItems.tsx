@@ -5,7 +5,7 @@ import { Fragment } from "react";
 const MenuItems = () => {
 	const menuItems: JSX.Element[] = [
 		<Menu.Item>
-			<Link href="/" className="hover:underline">
+			<Link href="/medicare" className="hover:underline">
 				Medicare
 			</Link>
 		</Menu.Item>,
