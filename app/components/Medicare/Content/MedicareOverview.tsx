@@ -1,10 +1,10 @@
 import { Tab } from "@headlessui/react";
-import Divider from "../Divider/Divider";
+import Divider from "../../Divider/Divider";
 
 const MedicareOverview = () => {
 	return (
 		<Tab.Panel>
-			<span className="text-5xl font-bold">OVERVIEW</span>
+			<div className="pb-6 text-5xl font-bold">OVERVIEW</div>
 			<p>
 				<strong> Medicare </strong> is a federal health insurance program that
 				provides coverage to eligible individuals who are
@@ -38,6 +38,39 @@ const MedicareOverview = () => {
 				<em> Original Medicare </em> covers, such as
 				<strong> prescription drug coverage </strong> and additional coverage
 				for <strong> vision, hearing, and dental services. </strong>
+			</p>
+			<Divider />
+			<p>
+				<strong>Enrolling in Medicare </strong> requires several steps,
+				including <strong> determining eligibility, </strong>{" "}
+				<strong> selecting a plan </strong> and{" "}
+				<strong> completing the necessary paperwork. </strong>
+				<br />
+				<br />
+				<strong> Eligibility for Medicare </strong> is based on{" "}
+				<strong> age </strong> <strong> disability </strong> or{" "}
+				<strong> end-stage renal disease </strong> The{" "}
+				<strong> initial enrollment period </strong> for Medicare starts{" "}
+				<strong> three months prior </strong> to an individual's{" "}
+				<strong> 65th birthday </strong> and continues for{" "}
+				<strong> three months after </strong>
+			</p>
+			<Divider />
+			<p>
+				{" "}
+				<strong> Users </strong> have the option to enroll in{" "}
+				<strong> Original Medicare </strong> or{" "}
+				<strong> Medicare Advantage, </strong> and can also purchase{" "}
+				<strong> additional coverage </strong> through{" "}
+				<strong> Medigap </strong> or{" "}
+				<strong> prescription drug coverage (Part D) </strong> if they so
+				choose. <br />
+				<br />
+				<strong> Navigating the Medicare program </strong> can be complex and
+				there are many options available.{" "}
+				<strong> Understanding the basics </strong> of the program and the{" "}
+				<strong> enrollment process </strong> is crucial for users to access
+				more detailed information as needed.
 			</p>
 		</Tab.Panel>
 	);

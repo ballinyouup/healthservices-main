@@ -19,7 +19,7 @@ const MedicareSidebar = () => {
 				<Tab className="w-full p-4 hover:bg-purple hover:text-white sm:w-fit">
 					Medicare Supplement
 				</Tab>
-				<Tab className="flex w-full flex-col items-start justify-start p-4 hover:bg-purple hover:text-white sm:w-fit">
+				<Tab className="flex w-full flex-col items-center p-4 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start">
 					<span>Prescription Drug</span>
 					<span>Coverage</span>
 				</Tab>
