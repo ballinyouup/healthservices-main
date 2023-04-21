@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const MedicarePrescription = () => {
 	return (
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
-			<div className="flex flex-col pb-2 text-5xl font-bold uppercase">
+			<div className="flex flex-col pb-2 text-4xl font-bold uppercase sm:text-5xl">
 				<span>Prescription</span>
 				<span>Drug Coverage</span>
 			</div>

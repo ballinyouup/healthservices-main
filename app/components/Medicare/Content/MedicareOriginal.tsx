@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const MedicareOriginal = () => {
 	return (
 		<Tab.Panel>
-			<div className="flex flex-col pb-6 text-5xl font-bold">
+			<div className="flex flex-col pb-6 text-4xl sm:text-5xl font-bold">
 				<span>ORIGINAL</span>
 				<span>MEDICARE</span>
 			</div>

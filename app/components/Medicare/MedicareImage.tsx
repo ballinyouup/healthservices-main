@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const MedicareImage = () => {
 	return (
-		<div className="relative h-64 w-full overflow-hidden bg-purpleDark bg-opacity-50">
-			<span className="absolute bottom-8 left-8 text-8xl font-bold text-white">
+		<div className="relative h-40 w-full overflow-hidden bg-purpleDark bg-opacity-50 sm:h-64">
+			<span className="absolute bottom-4 left-4 text-4xl font-bold text-white sm:bottom-8 sm:left-8 sm:text-6xl md:text-8xl">
 				MEDICARE
 			</span>
 			<Image

@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const TopNav = () => {
 	return (
 		<div className="flex w-full flex-col items-center">
-			<div className="flex h-8 w-full flex-row items-center justify-end bg-neutral-100">
-				<div className="flex h-8 w-full flex-row items-center justify-center gap-2 p-0 sm:justify-end sm:gap-4 sm:pr-3">
+			<div className="flex w-full flex-row items-center justify-end bg-neutral-100 sm:h-8">
+				<div className="flex w-full flex-col items-center justify-center p-0 sm:h-8 sm:flex-row sm:justify-end sm:gap-4 sm:pr-3">
 					<span className="whitespace-nowrap text-sm font-semibold text-black">
 						Hours: 9am - 5pm
 					</span>

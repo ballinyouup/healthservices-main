@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const MedicareOverview = () => {
 	return (
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
-			<div className="pb-2 text-5xl font-bold">OVERVIEW</div>
+			<div className="pb-2 text-4xl font-bold sm:text-5xl">OVERVIEW</div>
 			<span>
 				Medicare is a federal health insurance program designed to provide
 				coverage for eligible individuals aged 65 and older, as well as certain

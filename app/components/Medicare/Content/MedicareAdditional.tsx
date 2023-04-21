@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const MedicareAdditional = () => {
 	return (
 		<Tab.Panel>
-			<div className="flex flex-col pb-6 text-5xl font-bold">
+			<div className="flex flex-col pb-6 text-4xl font-bold sm:text-5xl">
 				<span>ADDITIONAL</span>
 				<span>BENEFITS</span>
 			</div>
