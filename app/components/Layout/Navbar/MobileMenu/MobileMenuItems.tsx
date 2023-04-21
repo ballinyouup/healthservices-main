@@ -29,7 +29,7 @@ const MobileMenuItems = () => {
 			leaveFrom="transform opacity-100 scale-100"
 			leaveTo="transform opacity-0 scale-95"
 		>
-			<Menu.Items className="absolute right-0 top-28 flex w-full flex-col gap-1 rounded-md bg-white p-3 text-lg font-bold ring-1 ring-black ring-opacity-20 focus:outline-none">
+			<Menu.Items className="absolute right-0 top-32 flex w-full flex-col gap-1 rounded-md bg-white p-3 text-lg font-bold ring-1 ring-black ring-opacity-20 focus:outline-none">
 				{menuItems.map((item, index) => {
 					return (
 						<div key={index}>
