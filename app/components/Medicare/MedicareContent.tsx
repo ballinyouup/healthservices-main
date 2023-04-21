@@ -4,6 +4,12 @@ import { Tab } from "@headlessui/react";
 import MedicareOverview from "./Content/MedicareOverview";
 import MedicareSidebar from "./MedicareSidebar";
 import MedicareEligibility from "./Content/MedicareEligibility";
+import MedicareOriginal from "./Content/MedicareOriginal";
+import MedicareAdvantage from "./Content/MedicareAdvantage";
+import MedicareSupplement from "./Content/MedicareSupplement";
+import MedicarePrescription from "./Content/MedicarePrescription";
+import MedicareCosts from "./Content/MedicareCosts";
+import MedicareAdditional from "./Content/MedicareAdditional";
 
 const MedicareContent = () => {
 	return (
@@ -19,7 +25,12 @@ const MedicareContent = () => {
 					<span className="mr-8 hidden border border-purple border-opacity-50 sm:flex" />
 					<MedicareOverview />
 					<MedicareEligibility />
-					<Tab.Panel>Content 3</Tab.Panel>
+					<MedicareOriginal />
+					<MedicareAdvantage />
+					<MedicareSupplement />
+					<MedicarePrescription />
+					<MedicareCosts />
+					<MedicareAdditional />
 				</Tab.Panels>
 			</Tab.Group>
 		</section>
