@@ -11,31 +11,7 @@ const FuneralSidebar = () => {
 				<span>Enrollment</span>
 			</Tab>
 			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
-				<span>Term Life&nbsp;</span>
-				<span>Insurance</span>
-			</Tab>
-			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
-				<span>Permanent&nbsp;</span>
-				<span>Life Insurance</span>
-			</Tab>
-			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
-				<span>Whole Life&nbsp;</span>
-				<span>Insurance</span>
-			</Tab>
-			<Tab className="flex w-full flex-wrap items-center justify-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
-				<span>Universal Life&nbsp;</span>
-				<span>Insurance</span>
-			</Tab>
-			<Tab className="flex w-full flex-col items-center p-2.5 hover:bg-purple hover:text-white sm:w-fit sm:items-start sm:justify-start lg:p-4">
-				<span>Variable Life&nbsp;</span>
-				<span>Insurance</span>
-			</Tab>
-			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
-				<span>Indexed Life&nbsp;</span>
-				<span>Insurance</span>
-			</Tab>
-			<Tab className="w-full p-2.5 hover:bg-purple hover:text-white sm:w-fit lg:p-4">
-				How To
+				<span>Benefits</span>
 			</Tab>
 		</div>
 	);

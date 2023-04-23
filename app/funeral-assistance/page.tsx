@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import LifeInsuranceImage from "../components/LifeInsurance/LifeInsuranceImage";
-import LifeInsuranceContent from "../components/LifeInsurance/LifeInsuranceContent";
+import FuneralImage from "../components/FuneralAssistance/FuneralImage";
+import FuneralContent from "../components/FuneralAssistance/FuneralContent";
 
 export const metadata: Metadata = {
 	title: "Funeral Assistance",
@@ -12,8 +12,8 @@ export default function Page() {
 	return (
 		<main className="flex w-full items-center justify-center">
 			<div className="w-full max-w-5xl">
-				<LifeInsuranceImage />
-				<LifeInsuranceContent />
+				<FuneralImage />
+				<FuneralContent />
 			</div>
 		</main>
 	);
