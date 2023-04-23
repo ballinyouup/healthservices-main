@@ -13,7 +13,7 @@ const LifeInsuranceVariable = () => {
 				for higher returns but also higher risks than other types of permanent
 				life insurance. You can lose money if the subaccounts perform poorly.
 				Variable life insurance also has higher fees and charges than other
-				types of permanent life insurance1. Variable life insurance is suitable
+				types of permanent life insurance Variable life insurance is suitable
 				for people who are willing to take more risk and have more investment
 				knowledge.
 			</span>
@@ -21,7 +21,7 @@ const LifeInsuranceVariable = () => {
 			<ul className="list-disc">
 				<li className="ml-6">
 					It gives you more control over how your cash value is invested, by
-					offering you a portfolio of subaccounts from which to choose1.
+					offering you a portfolio of subaccounts from which to choose
 				</li>
 				<li className="ml-6">
 					It has a higher potential for cash value growth than other types of

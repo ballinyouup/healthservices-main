@@ -9,7 +9,7 @@ const LifeInsuranceUniversal = () => {
 			<span>
 				Universal life insurance is a more flexible type of permanent life
 				insurance that allows you to adjust your premium and death benefit
-				amount within certain limits1. Universal life insurance also has an
+				amount within certain limits Universal life insurance also has an
 				interest-bearing cash value account that varies according to the current
 				market rates Universal life insurance is suitable for people who want
 				more control over their coverage and cash value accumulation.

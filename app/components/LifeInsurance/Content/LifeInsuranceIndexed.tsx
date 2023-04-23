@@ -11,10 +11,10 @@ const LifeInsuranceIndexed = () => {
 				life insurance that allows you to adjust your premium and death benefit
 				amount within certain limits Indexed universal life insurance also has a
 				cash value account that earns interest based on the performance of a
-				stock or bond index, such as the S&P 500 or the Nasdaq-1002. Indexed
+				stock or bond index, such as the S&P 500 or the Nasdaq-100 Indexed
 				universal life insurance offers the potential for higher returns than
 				other types of permanent life insurance, but also has a minimum
-				guaranteed rate of return to protect you from market losses1.
+				guaranteed rate of return to protect you from market losses
 			</span>
 			<span>
 				Indexed universal life insurance is suitable for people who want to
