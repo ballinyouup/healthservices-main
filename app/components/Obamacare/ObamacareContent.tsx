@@ -7,9 +7,9 @@ import ObamacareSidebar from "./ObamacareSidebar";
 import ObamacareTypes from "./Content/ObamacareTypes";
 import ObamacarePTC from "./Content/ObamacarePTC";
 import ObamacareCSRS from "./Content/ObamacareCSRS";
-import ObamacareGuide from "./Content/ObamacareGuide";
 import ObamacareMedicaid from "./Content/ObamacareMedicaid";
 import ObamacareAdditional from "./Content/ObamacareAdditional";
+import ObamacareHowTo from "./Content/ObamacareHowTo";
 
 const ObamacareContent = () => {
 	return (
@@ -29,7 +29,7 @@ const ObamacareContent = () => {
 					<ObamacarePTC />
 					<ObamacareCSRS />
 					<ObamacareMedicaid />
-					<ObamacareGuide />
+					<ObamacareHowTo />
 					<ObamacareAdditional />
 				</Tab.Panels>
 			</Tab.Group>

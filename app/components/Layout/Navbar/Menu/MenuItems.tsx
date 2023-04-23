@@ -15,12 +15,12 @@ const MenuItems = () => {
 			</Link>
 		</Menu.Item>,
 		<Menu.Item>
-			<Link href="/" className="hover:underline">
+			<Link href="/life-insurance" className="hover:underline">
 				Life Insurance
 			</Link>
 		</Menu.Item>,
 		<Menu.Item>
-			<Link href="/" className="hover:underline">
+			<Link href="/funeral-assistance" className="hover:underline">
 				Funeral
 				<br />
 				Assistance

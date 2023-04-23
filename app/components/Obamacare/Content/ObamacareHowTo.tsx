@@ -1,7 +1,7 @@
 import { Tab } from "@headlessui/react";
 import ObamacareSources from "./ObamacareSources";
 
-const ObamacareGuide = () => {
+const ObamacareHowTo = () => {
 	return (
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
 			<div className="pb-2 text-4xl font-bold uppercase sm:text-5xl">
@@ -105,4 +105,4 @@ const ObamacareGuide = () => {
 	);
 };
 
-export default ObamacareGuide;
+export default ObamacareHowTo;
