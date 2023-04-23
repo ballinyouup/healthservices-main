@@ -11,9 +11,14 @@ const ObamacareOverview = () => {
 				Americans, regardless of age, income, or pre-existing conditions.
 			</span>
 			<span>
-				This page will provide an overview of the ACA, including its key
-				components, eligibility requirements, enrollment process, coverage
-				options, costs, and benefits.
+				Obamacare offers various types of cost assistance, such as premium tax
+				credits, cost-sharing reduction subsidies, Medicaid expansion, and the
+				Children's Health Insurance Program (CHIP).
+			</span>
+			<span>
+				Obamacare also sets minimum standards for health plans, such as covering
+				essential health benefits, preventive services, and pre-existing
+				conditions.
 			</span>
 		</Tab.Panel>
 	);

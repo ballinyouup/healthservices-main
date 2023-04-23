@@ -4,7 +4,12 @@ import { Tab } from "@headlessui/react";
 import ObamacareEligibility from "./Content/ObamacareEligibility";
 import ObamacareOverview from "./Content/ObamacareOverview";
 import ObamacareSidebar from "./ObamacareSidebar";
-import ObamacareHIM from "./Content/ObamacareHIM";
+import ObamacareTypes from "./Content/ObamacareTypes";
+import ObamacarePTC from "./Content/ObamacarePTC";
+import ObamacareCSRS from "./Content/ObamacareCSRS";
+import ObamacareGuide from "./Content/ObamacareGuide";
+import ObamacareMedicaid from "./Content/ObamacareMedicaid";
+import ObamacareAdditional from "./Content/ObamacareAdditional";
 
 const ObamacareContent = () => {
 	return (
@@ -20,7 +25,12 @@ const ObamacareContent = () => {
 					<span className="mr-8 hidden border border-purple border-opacity-50 sm:flex" />
 					<ObamacareOverview />
 					<ObamacareEligibility />
-					<ObamacareHIM />
+					<ObamacareTypes />
+					<ObamacarePTC />
+					<ObamacareCSRS />
+					<ObamacareMedicaid />
+					<ObamacareGuide />
+					<ObamacareAdditional />
 				</Tab.Panels>
 			</Tab.Group>
 		</section>
