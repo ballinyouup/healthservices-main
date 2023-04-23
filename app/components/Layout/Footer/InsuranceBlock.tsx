@@ -15,11 +15,11 @@ const InsuranceBlock = () => {
 			text: "Obamacare",
 		},
 		{
-			href: "/lifeinsurance",
+			href: "/life-insurance",
 			text: "Life Insurance",
 		},
 		{
-			href: "/funeralassistance",
+			href: "/funeral-assistance",
 			text: "Funeral Assistance",
 		},
 	];
