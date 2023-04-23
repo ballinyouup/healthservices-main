@@ -5,9 +5,10 @@ const MedicareOverview = () => {
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
 			<div className="pb-2 text-4xl font-bold sm:text-5xl">OVERVIEW</div>
 			<span>
-				Medicare is a federal health insurance program designed to provide
-				coverage for eligible individuals aged 65 and older, as well as certain
-				permanently disabled individuals under 65.
+				Medicare is a federal health insurance program that helps millions of
+				Americans pay for their health care needs. Whether you are 65 or older,
+				disabled, or have certain chronic conditions, you may be eligible for
+				Medicare coverage.
 			</span>
 			<span>
 				Established in 1965, Medicare has evolved to include different parts (A,

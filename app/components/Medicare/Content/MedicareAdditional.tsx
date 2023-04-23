@@ -8,20 +8,56 @@ const MedicareAdditional = () => {
 				<span>BENEFITS</span>
 			</div>
 			<div className="flex flex-col gap-4 text-lg">
-				<span>
-					Some Medicare plans offer additional benefits not covered by Original
-					Medicare, such as vision, dental, and hearing coverage. These benefits
-					are more commonly found in Medicare Advantage plans, but some Medigap
-					policies may also include coverage for specific services not covered
-					by Original Medicare.
-				</span>
-				<span>
-					In addition to these benefits, some Medicare plans may offer extra
-					perks like wellness programs, gym memberships, and transportation
-					services. It's essential to review and compare plan options carefully
-					to ensure you select a plan that meets your healthcare needs and
-					preferences.
-				</span>
+				<ul className="list-disc">
+					<span>
+						Some Medicare Advantage plans offer additional benefits that
+						Original Medicare does not cover. These benefits may vary by plan
+						and provider. Some examples of additional benefits are:
+					</span>
+					<li className="ml-6">
+						Dental care: This covers preventive and restorative dental services,
+						such as exams, cleanings, fillings, crowns, and dentures.
+					</li>
+					<li className="ml-6">
+						Vision care: This covers eye exams, glasses, contacts, and cataract
+						surgery.
+					</li>
+					<li className="ml-6">
+						Hearing aids: This covers hearing tests, hearing aids, and hearing
+						aid batteries.
+					</li>
+					<li className="ml-6">
+						Wellness programs: These are programs that help you improve your
+						health and well-being, such as fitness classes, health coaching,
+						nutrition counseling, and chronic disease management.
+					</li>
+					<li className="ml-6">
+						Transportation: This covers rides to and from medical appointments,
+						pharmacies, or other health-related locations.
+					</li>
+					<li className="ml-6">
+						Over-the-counter (OTC) items: This covers certain non-prescription
+						drugs and health-related items, such as pain relievers, vitamins,
+						bandages, and thermometers.
+					</li>
+					<li className="ml-6">
+						Meal delivery: This covers home-delivered meals after a hospital
+						stay or for certain chronic conditions.
+					</li>
+					<li className="ml-6">
+						Home modifications: This covers changes to your home to make it
+						safer and more accessible, such as ramps, grab bars, or stair lifts.
+					</li>
+					<span>
+						To find out what additional benefits your MA plan offers, you can
+						check your plan's summary of benefits, evidence of coverage, or
+						website. You can also compare different MA plans and their
+						additional benefits using the Medicare Plan Finder tool. You should
+						also check if your plan has any rules or limitations for using these
+						additional benefits, such as prior authorization, network
+						restrictions, or quantity limits.
+					</span>
+				</ul>
 			</div>
 		</Tab.Panel>
 	);

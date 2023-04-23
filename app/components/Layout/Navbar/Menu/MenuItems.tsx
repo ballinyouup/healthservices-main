@@ -10,7 +10,7 @@ const MenuItems = () => {
 			</Link>
 		</Menu.Item>,
 		<Menu.Item>
-			<Link href="/" className="hover:underline">
+			<Link href="/obamacare" className="hover:underline">
 				Obamacare
 			</Link>
 		</Menu.Item>,

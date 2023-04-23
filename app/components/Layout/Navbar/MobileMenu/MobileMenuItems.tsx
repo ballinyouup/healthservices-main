@@ -9,7 +9,7 @@ const MobileMenuItems = () => {
 			<Link href="/medicare">Medicare</Link>
 		</Menu.Item>,
 		<Menu.Item>
-			<Link href="/">Obamacare</Link>
+			<Link href="/obamacare">Obamacare</Link>
 		</Menu.Item>,
 		<Menu.Item>
 			<Link href="/">Life Insurance</Link>

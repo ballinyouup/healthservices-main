@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const MedicareEligibility = () => {
 	return (
 		<Tab.Panel>
-			<div className="flex flex-col pb-6 text-4xl sm:text-5xl font-bold uppercase">
+			<div className="flex flex-col pb-6 text-4xl font-bold uppercase sm:text-5xl">
 				<span>Eligibility &</span>
 				<span>Enrollment</span>
 			</div>
@@ -13,14 +13,17 @@ const MedicareEligibility = () => {
 						To be eligible for Medicare, individuals must be:
 					</span>
 					<ul className="ml-8 list-disc">
-						<li>Aged 65 or older</li>
 						<li>
-							Under 65 but permanently disabled and receiving Social Security
-							Disability Insurance (SSDI) for at least 24 months
+							You are 65 or older and a U.S. citizen or a legal resident who has
+							lived in the U.S. for at least five years.
 						</li>
 						<li>
-							Diagnosed with End-Stage Renal Disease (ESRD) or Amyotrophic
-							Lateral Sclerosis (ALS)
+							You are under 65 and have a disability that qualifies you for
+							Social Security benefits for at least 24 months.
+						</li>
+						<li>
+							You are under 65 and have end-stage renal disease (ESRD) or
+							amyotrophic lateral sclerosis (ALS)
 						</li>
 					</ul>
 				</div>
@@ -33,13 +36,24 @@ const MedicareEligibility = () => {
 					</ul>
 				</div>
 				<span>
-					Enrollment in Medicare is handled through the Social Security
-					Administration. You can enroll during your Initial Enrollment Period
-					(IEP), which begins three months before the month you turn 65,
-					includes your birth month, and extends for three months after your
-					birth month. If you miss your IEP, you can enroll during the General
-					Enrollment Period (GEP) which occurs from January 1 to March 31 each
-					year, but you may face late enrollment penalties.
+					The best time to enroll in Medicare is during your initial enrollment
+					period (IEP), which is a seven-month period that begins three months
+					before your 65th birthday month and ends three months after it. If you
+					enroll during this period, you will avoid any late enrollment
+					penalties or gaps in coverage.
+				</span>
+				<span>
+					If you miss your IEP, you can still enroll in Medicare during the
+					general enrollment period (GEP), which runs from January 1 to March 31
+					each year. However, you may have to pay higher premiums and wait until
+					July 1 for your coverage to start.
+				</span>
+				<span>
+					You can also change your Medicare coverage during the annual open
+					enrollment period (OEP), which runs from October 15 to December 7 each
+					year. During this time, you can switch from Original Medicare to a
+					Medicare Advantage plan, or vice versa, or change your prescription
+					drug plan.
 				</span>
 			</p>
 		</Tab.Panel>
