@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import MedicareSources from "./MedicareSources";
 
 const MedicareSupplement = () => {
 	return (
@@ -52,6 +53,7 @@ const MedicareSupplement = () => {
 				aids, or private-duty nursing. You may need to buy additional coverage
 				or pay out-of-pocket for these services.
 			</span>
+			<MedicareSources />
 		</Tab.Panel>
 	);
 };

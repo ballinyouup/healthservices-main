@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacareAdditional = () => {
 	return (
@@ -41,6 +42,7 @@ const ObamacareAdditional = () => {
 					drugs.
 				</li>
 			</ul>
+            <ObamacareSources />
 		</Tab.Panel>
 	);
 };

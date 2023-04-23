@@ -42,8 +42,8 @@ const MedicareAdvantage = () => {
 					plan. However, you cannot switch from Original Medicare to an MA plan
 					during the MA OEP.
 				</span>
-				<MedicareSources />
 			</div>
+			<MedicareSources />
 		</Tab.Panel>
 	);
 };

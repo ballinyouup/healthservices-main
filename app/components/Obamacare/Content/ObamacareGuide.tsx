@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacareGuide = () => {
 	return (
@@ -99,6 +100,7 @@ const ObamacareGuide = () => {
 				information. You will need to provide proof of the changes, such as pay
 				stubs, tax returns, birth certificates, or marriage certificates.
 			</span>
+            <ObamacareSources />
 		</Tab.Panel>
 	);
 };

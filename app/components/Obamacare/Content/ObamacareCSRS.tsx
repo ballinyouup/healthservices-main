@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacareCSRS = () => {
 	return (
@@ -29,6 +30,7 @@ const ObamacareCSRS = () => {
 					You enroll in a silver plan through the Marketplace.
 				</li>
 			</ul>
+            <ObamacareSources />
 		</Tab.Panel>
 	);
 };

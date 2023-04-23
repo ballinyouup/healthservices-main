@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacareTypes = () => {
 	return (
@@ -46,6 +47,7 @@ const ObamacareTypes = () => {
 					</span>
 				</ul>
 			</p>
+			<ObamacareSources />
 		</Tab.Panel>
 	);
 };

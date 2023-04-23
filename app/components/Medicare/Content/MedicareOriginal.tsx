@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import MedicareSources from "./MedicareSources";
 
 const MedicareOriginal = () => {
 	return (
@@ -55,6 +56,7 @@ const MedicareOriginal = () => {
 					coverage or pay out-of-pocket for these services.
 				</span>
 			</div>
+			<MedicareSources />
 		</Tab.Panel>
 	);
 };

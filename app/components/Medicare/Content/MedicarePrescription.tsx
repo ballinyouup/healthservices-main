@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import MedicareSources from "./MedicareSources";
 
 const MedicarePrescription = () => {
 	return (
@@ -79,6 +80,7 @@ const MedicarePrescription = () => {
 				cosmetic purposes, or erectile dysfunction. You may need to buy
 				additional coverage or pay out-of-pocket for these drugs.
 			</span>
+			<MedicareSources />
 		</Tab.Panel>
 	);
 };

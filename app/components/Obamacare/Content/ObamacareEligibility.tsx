@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacareEligibility = () => {
 	return (
@@ -34,6 +35,7 @@ const ObamacareEligibility = () => {
 					enroll in Medicaid or CHIP at any time if you are eligible.
 				</span>
 			</p>
+			<ObamacareSources />
 		</Tab.Panel>
 	);
 };

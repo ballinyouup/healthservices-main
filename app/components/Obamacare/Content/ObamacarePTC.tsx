@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamacarePTC = () => {
 	return (
@@ -32,6 +33,7 @@ const ObamacarePTC = () => {
 					You enroll in a health plan through the Marketplace.
 				</li>
 			</ul>
+            <ObamacareSources />
 		</Tab.Panel>
 	);
 };

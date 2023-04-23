@@ -1,6 +1,6 @@
 const MedicareSources = () => {
 	return (
-		<ul className="list-disc">
+		<ul className="mt-8 list-disc text-base italic">
 			<span>Sources:</span>
 			<li className="ml-6">
 				<a className="hover:underline" href="https://www.medicare.gov/">

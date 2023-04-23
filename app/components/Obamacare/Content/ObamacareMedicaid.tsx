@@ -1,4 +1,5 @@
 import { Tab } from "@headlessui/react";
+import ObamacareSources from "./ObamacareSources";
 
 const ObamcareMedicaid = () => {
 	return (
@@ -41,6 +42,7 @@ const ObamcareMedicaid = () => {
 				non-expansion states may consider adopting the expansion in 2023 through
 				legislative action or ballot initiatives.
 			</span>
+            <ObamacareSources />
 		</Tab.Panel>
 	);
 };
