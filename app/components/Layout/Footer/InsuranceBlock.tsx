@@ -1,43 +1,45 @@
 import Link from "next/link";
 
 const InsuranceBlock = () => {
-    const insuranceLinks = [
+	const insuranceLinks = [
 		{
-			href: "",
+			href: "/",
 			text: "Home",
 		},
 		{
-			href: "/",
+			href: "/medicare",
 			text: "Medicare",
 		},
 		{
-			href: "/",
+			href: "/obamacare",
 			text: "Obamacare",
 		},
 		{
-			href: "/",
+			href: "/lifeinsurance",
 			text: "Life Insurance",
 		},
 		{
-			href: "/",
+			href: "/funeralassistance",
 			text: "Funeral Assistance",
 		},
 	];
-    return ( <div className="flex w-full max-w-xs items-center justify-center">
-    <ul className="w-fit">
-        {insuranceLinks.map((link, index) => (
-            <li key={link.text}>
-                {index !== 0 ? (
-                    <Link href={link.href} className="hover:underline">
-                        {link.text}
-                    </Link>
-                ) : (
-                    <span className="font-bold">{link.text}</span>
-                )}
-            </li>
-        ))}
-    </ul>
-</div> );
-}
- 
+	return (
+		<div className="flex w-full max-w-xs items-center justify-center">
+			<ul className="w-fit">
+				{insuranceLinks.map((link, index) => (
+					<li key={link.text}>
+						{index !== 0 ? (
+							<Link href={link.href} className="hover:underline">
+								{link.text}
+							</Link>
+						) : (
+							<span className="font-bold">{link.text}</span>
+						)}
+					</li>
+				))}
+			</ul>
+		</div>
+	);
+};
+
 export default InsuranceBlock;
