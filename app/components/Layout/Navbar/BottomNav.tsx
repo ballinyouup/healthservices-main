@@ -13,9 +13,6 @@ const BottomNav = () => {
 					<Link href="/">Home</Link>
 				</Button>
 				<MenuDropdown />
-				<Button clear>
-					<Link href="/">Contact Us</Link>
-				</Button>
 			</div>
 			<MobileMenu />
 		</div>
