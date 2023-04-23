@@ -3,7 +3,7 @@ import { Tab } from "@headlessui/react";
 const ObamacarePTC = () => {
 	return (
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
-			<div className="pb-2 text-4xl font-bold sm:text-5xl">
+			<div className="pb-2 text-4xl font-bold uppercase sm:text-5xl">
 				Premium Tax Credits
 			</div>
 			<span>
@@ -19,9 +19,18 @@ const ObamacarePTC = () => {
 					To qualify for premium tax credits, you must meet the following
 					criteria:
 				</span>
-                <li className="ml-6">You have a household income between 100% and 400% of the FPL ($13,590-$54,360 for an individual or $27,750-$111,000 for a family of four in 2023).</li>
-                <li className="ml-6">You are not eligible for other affordable health coverage, such as employer-sponsored insurance, Medicare, Medicaid, or CHIP.</li>
-                <li className="ml-6">You enroll in a health plan through the Marketplace.</li>
+				<li className="ml-6">
+					You have a household income between 100% and 400% of the FPL
+					($13,590-$54,360 for an individual or $27,750-$111,000 for a family of
+					four in 2023).
+				</li>
+				<li className="ml-6">
+					You are not eligible for other affordable health coverage, such as
+					employer-sponsored insurance, Medicare, Medicaid, or CHIP.
+				</li>
+				<li className="ml-6">
+					You enroll in a health plan through the Marketplace.
+				</li>
 			</ul>
 		</Tab.Panel>
 	);

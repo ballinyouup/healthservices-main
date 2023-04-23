@@ -3,7 +3,9 @@ import { Tab } from "@headlessui/react";
 const ObamacareGuide = () => {
 	return (
 		<Tab.Panel className="flex flex-col gap-4 text-lg">
-			<div className="pb-2 text-4xl font-bold sm:text-5xl">Obamacare Guide</div>
+			<div className="pb-2 text-4xl font-bold uppercase sm:text-5xl">
+				Obamacare Guide
+			</div>
 			<span className="text-2xl font-bold">How to Compare Plans</span>
 			<ul className="list-disc">
 				<span>
