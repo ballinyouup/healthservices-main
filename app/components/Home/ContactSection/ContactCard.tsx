@@ -31,15 +31,18 @@ const ContactCard = () => {
 		try {
 			if (formSchema.parse(formData)) {
 				setSubmitLoading(true);
-				const response = await fetch("http://localhost:3000/api/submit", {
-					body: JSON.stringify({
-						"First Name": formData.firstName,
-						"Last Name": formData.lastName,
-						"Phone Number": formData.phoneNumber,
-						Email: formData.email,
-					}),
-					method: "POST",
-				});
+				const response = await fetch(
+					"https://healthservicesfl.com/api/submit",
+					{
+						body: JSON.stringify({
+							"First Name": formData.firstName,
+							"Last Name": formData.lastName,
+							"Phone Number": formData.phoneNumber,
+							Email: formData.email,
+						}),
+						method: "POST",
+					}
+				);
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
 					setSubmitLoading(false);
