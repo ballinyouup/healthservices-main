@@ -41,7 +41,6 @@ const ContactCard = () => {
 					method: "POST",
 					mode: "no-cors",
 					cache: "no-cache",
-					referrerPolicy: "no-referrer",
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
