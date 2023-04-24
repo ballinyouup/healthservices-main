@@ -39,7 +39,7 @@ const ContactCard = () => {
 						Email: formData.email,
 					}),
 					method: "POST",
-					cache: "no-store",
+					cache: "no-cache",
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
@@ -168,7 +168,9 @@ const ContactCard = () => {
 				>
 					{submitLoading ? (
 						<LoadingSpinner className="dark:text-gray-600 mr-2 h-4 w-4 animate-spin fill-black text-white" />
-					): "Submit"}
+					) : (
+						"Submit"
+					)}
 				</button>
 			</div>
 		</div>
