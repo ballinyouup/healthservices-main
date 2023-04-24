@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { z } from "zod";
 import LoadingSpinner from "../../Loading/LoadingSpinner";
@@ -40,6 +40,9 @@ const ContactCard = () => {
 					}),
 					method: "POST",
 					cache: "no-cache",
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+					},
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
