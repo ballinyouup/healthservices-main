@@ -6,11 +6,7 @@ export async function POST(request: NextRequest) {
 		apiKey: process.env.AIRTABLE_API_KEY as string,
 	}).base("appX7LJE3epl1urmY");
 	const body = await request.json();
-	base("Users").create(body, { typecast: true, method: "post" });
+	base("Users").create(body, { typecast: true });
 
-	return new Response("Success", {
-		headers: request.headers,
-		status: 200,
-		statusText: "Success",
-	});
+	return new Response("Success");
 }
