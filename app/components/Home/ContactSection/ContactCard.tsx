@@ -39,10 +39,6 @@ const ContactCard = () => {
 						Email: formData.email,
 					}),
 					method: "POST",
-					cache: "no-cache",
-					headers: {
-						"Access-Control-Allow-Origin": "*",
-					},
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
