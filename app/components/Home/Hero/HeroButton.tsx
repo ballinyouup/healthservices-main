@@ -1,15 +1,17 @@
+"use client";
+
 import Button from "../../Button/Button";
 
 const HeroButton = () => {
 	return (
-		<div className="flex w-full flex-row justify-start sm:max-w-xl">
+		<div className="flex w-full flex-row justify-start gap-4 sm:max-w-xl">
 			<Button>
-				<a
-					href="tel:+17864447717"
-					className="font-poppins text-center text-2xl font-semibold text-white"
-				>
+				<button onClick={() => scrollTo({ top: 2550, behavior: "smooth" })}>
 					Contact Us
-				</a>
+				</button>
+			</Button>
+			<Button>
+				<a href="tel:+17864447717">Call Today</a>
 			</Button>
 		</div>
 	);
