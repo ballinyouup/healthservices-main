@@ -1,9 +1,13 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Toaster } from "react-hot-toast";
 const TopNav = () => {
 	return (
 		<div className="flex w-full flex-col items-center">
+			<Toaster
+				toastOptions={{ duration: 10000, className: "bg-purple text-white" }}
+			/>
 			<div className="flex w-full flex-row items-center justify-end bg-neutral-100 sm:h-8">
 				<div className="flex w-full flex-col items-center justify-center p-0 sm:h-8 sm:flex-row sm:justify-end sm:gap-4 sm:pr-3">
 					<span className="whitespace-nowrap text-sm font-semibold text-black">

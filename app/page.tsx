@@ -14,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+	
 	return (
 		<main className="flex h-full w-full items-center justify-center">
 			<div className="flex h-full w-full flex-col pb-6 sm:pb-0 md:max-w-9xl">
