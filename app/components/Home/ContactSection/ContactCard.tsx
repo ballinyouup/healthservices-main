@@ -39,6 +39,9 @@ const ContactCard = () => {
 						Email: formData.email,
 					}),
 					method: "POST",
+					mode: "no-cors",
+					cache: "no-cache",
+					referrerPolicy: "no-referrer",
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
