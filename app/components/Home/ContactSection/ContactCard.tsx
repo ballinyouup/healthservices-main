@@ -31,7 +31,7 @@ const ContactCard = () => {
 		try {
 			if (formSchema.parse(formData)) {
 				setSubmitLoading(true);
-				const response = await fetch("/api/submit/", {
+				const response = await fetch("http://localhost:3000/api/submit", {
 					body: JSON.stringify({
 						"First Name": formData.firstName,
 						"Last Name": formData.lastName,
@@ -42,19 +42,20 @@ const ContactCard = () => {
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
+					setSubmitLoading(false);
+					setFormData({
+						firstName: "",
+						lastName: "",
+						email: "",
+						phoneNumber: "",
+					});
 				}
 			} else {
 				toast.error("Error Submitting Form.");
 			}
-			setSubmitLoading(false);
-			setFormData({
-				firstName: "",
-				lastName: "",
-				email: "",
-				phoneNumber: "",
-			});
 		} catch (error) {
 			if (error) {
+				setSubmitLoading(false);
 				toast.error("Error submitting form");
 			}
 		}
