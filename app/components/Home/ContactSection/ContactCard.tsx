@@ -16,7 +16,7 @@ const formSchema = z.object({
 	phoneNumber: phoneNumber,
 });
 
-type Form = z.infer<typeof formSchema>;
+export type Form = z.infer<typeof formSchema>;
 
 const ContactCard = () => {
 	const [submitLoading, setSubmitLoading] = useState(false);
@@ -32,16 +32,8 @@ const ContactCard = () => {
 			if (formSchema.parse(formData)) {
 				setSubmitLoading(true);
 				const response = await fetch("/api/submit", {
-					body: JSON.stringify({
-						"First Name": formData.firstName,
-						"Last Name": formData.lastName,
-						"Phone Number": formData.phoneNumber,
-						Email: formData.email,
-					}),
+					body: JSON.stringify(formData),
 					method: "POST",
-					mode: "no-cors",
-					cache: "no-cache",
-					referrerPolicy: "no-referrer",
 				});
 				if (response.status === 200) {
 					toast.success("Successfully submitted form!");
