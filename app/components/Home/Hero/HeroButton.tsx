@@ -6,7 +6,7 @@ const HeroButton = () => {
 	return (
 		<div className="flex w-full flex-row justify-start gap-4 sm:max-w-xl">
 			<Button>
-				<button onClick={() => scrollTo({ top: 2550, behavior: "smooth" })}>
+				<button onClick={() => scrollTo({ top: 3000, behavior: "smooth" })}>
 					Contact Us
 				</button>
 			</Button>
