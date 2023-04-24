@@ -8,5 +8,9 @@ export async function POST(request: NextRequest) {
 	const body = await request.json();
 	base("Users").create(body, { typecast: true, method: "post" });
 
-	return new Response("Success", { headers: request.headers });
+	return new Response("Success", {
+		headers: request.headers,
+		status: 200,
+		statusText: "Success",
+	});
 }
