@@ -6,7 +6,7 @@ const HomeCardSection = () => {
 			src: "/image1.jpg",
 			alt: "Medicare Image",
 			text: "Medicare",
-			href: "/",
+			href: "/medicare",
 			image: {
 				src: "/medicareIcon.png",
 				alt: "Medicare Icon",
@@ -16,7 +16,7 @@ const HomeCardSection = () => {
 			src: "/image2.jpg",
 			alt: "Obamacare Image",
 			text: "Obamacare",
-			href: "/",
+			href: "/obamacare",
 			image: {
 				src: "/obamacareIcon.png",
 				alt: "Obamacare Icon",
@@ -26,7 +26,7 @@ const HomeCardSection = () => {
 			src: "/image3.jpg",
 			alt: "Life Insurance Image",
 			text: "Life Insurance",
-			href: "/",
+			href: "/life-insurance",
 			image: {
 				src: "/lifeInsuranceIcon.png",
 				alt: "Life Insurance Icon",
@@ -36,7 +36,7 @@ const HomeCardSection = () => {
 			src: "/image4.jpg",
 			alt: "Funeral Assistance Image",
 			text: "Funeral Assistance",
-			href: "/",
+			href: "/funeral-assistance",
 			image: {
 				src: "/funeralAssistanceIcon.png",
 				alt: "Funeral Assistance Icon",
